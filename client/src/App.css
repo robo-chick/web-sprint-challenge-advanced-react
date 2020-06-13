@@ -251,3 +251,32 @@ pre {
   color: #0e101c;
   border-bottom: 2px solid !important;
 }
+
+/* Stretch - Dark Mode */
+
+.dark-mode {
+  background-color: #FFE4B5
+;
+}
+
+.dark-mode p {
+  color: #0e101c;
+}
+
+.dark-mode h1 {
+  color: #0e101c;
+}
+
+.dark-mode form {
+  background-color: #FFE4B5
+}
+
+.dark-mode h2 {
+  color: #0e101c;
+}
+
+.dark-mode label {
+  color: #0e101c;
+}
+
+
