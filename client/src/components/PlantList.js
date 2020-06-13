@@ -27,6 +27,7 @@ export default class PlantList extends Component {
       });
   }
 
+  // stretch - add filter
   filterPlants = (plants) => {
 
     return plants.filter(plant => {
@@ -56,6 +57,7 @@ export default class PlantList extends Component {
           placeholder="Search plants by name"
           />
         {/* {this.state?.plants?.map((plant) => ( */}
+        // changed for stretch
         {this.filterPlants(this.state.plants).map((plant) => (
           <div className="plant-card" key={plant.id}>
             <img className="plant-image" src={plant.img} alt={plant.name} />
